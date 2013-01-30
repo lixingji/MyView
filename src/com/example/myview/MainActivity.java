@@ -59,8 +59,11 @@ OnItemClickListener {
 		setContentView(R.layout.activity_main);
 
 		Button button0=(Button)this.findViewById(R.id.button0);
-		MyTextView();//显示下一个页面 
-		
+                button0.setOnClickListener(new View.OnClickListener() {
+	    	public void onClick(View v) { 
+	    		MyTextView();//显示下一个页面  
+	    	}	
+            });
 	}
 	
 	public void MyTextView(){
