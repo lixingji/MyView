@@ -6,20 +6,6 @@
     android:orientation="horizontal"
     tools:context=".MainActivity" >
     
-<RelativeLayout 
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="90dp"
-        android:text="返回主界面" />
-
-</RelativeLayout>
     <GridView
         android:id="@+id/grv"
         android:layout_width="fill_parent"

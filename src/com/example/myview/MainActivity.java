@@ -48,10 +48,8 @@ OnItemClickListener {
 			R.drawable.img1,R.drawable.img2,R.drawable.img3,
 			R.drawable.img4,R.drawable.img5,R.drawable.img6,
 			R.drawable.img7,R.drawable.img8,R.drawable.img9,
-			R.drawable.img10,R.drawable.img11,R.drawable.img12,
-			R.drawable.img13,R.drawable.img14,R.drawable.img15,
-			R.drawable.img16,R.drawable.img17,R.drawable.img18,
-			R.drawable.img19,R.drawable.img20
+			R.drawable.img10,R.drawable.img11,R.drawable.img12
+			
 	};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -59,16 +57,11 @@ OnItemClickListener {
 		setContentView(R.layout.activity_main);
 
 		Button button0=(Button)this.findViewById(R.id.button0);
-<<<<<<< HEAD
-		MyTextView();//显示下一个页面 
-		
-=======
                 button0.setOnClickListener(new View.OnClickListener() {
 	    	public void onClick(View v) { 
 	    		MyTextView();//显示下一个页面  
 	    	}	
             });
->>>>>>> dab3ece5e62ac9a09cdf89e200d56263c5e75565
 	}
 	
 	public void MyTextView(){
@@ -172,12 +165,9 @@ OnItemClickListener {
 		grv.setOnItemSelectedListener(this);
 		imv.setImageResource(resIds[0]);
 		
-		Button button4=(Button)this.findViewById(R.id.button4);
-	    button4.setOnClickListener(new View.OnClickListener() {
-	    	public void onClick(View v) { 
-	    		MainView();//显示下一个页面 
-	    	}
-	    });
+
+	    		//MainView();//显示下一个页面 
+
 	}
     
     public void MainView(){
